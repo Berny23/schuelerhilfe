@@ -1,9 +1,6 @@
 name: Build and deploy Jekyll site to GitHub Pages
 
-on:
-  push:
-    branches:
-      - master
+on: [push, pull_request]
 
 jobs:
   github-pages:
@@ -13,6 +10,10 @@ jobs:
       - name: install dependencies
         run: |
           sudo apt-get -yqq install ruby ruby-all-dev
-      - uses: helaili/jekyll-action@2.0.4
-        env:
-          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+      - name: Build the site in the jekyll/builder container
+        run: |
+          export JEKYLL_VERSION=4.1.1
+          docker run \
+          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+          -e PAGES_REPO_NWO=${{ github.repository }} \
+          jekyll/builder:$JEKYLL_VERSION /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
