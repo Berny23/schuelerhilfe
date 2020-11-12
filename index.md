@@ -13,3 +13,5 @@ test3:
   \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}  
 \end{equation}
 </div>
+
+[Link](src/test.md)
