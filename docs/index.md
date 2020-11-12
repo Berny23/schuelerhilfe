@@ -14,4 +14,4 @@ test3:
 \end{equation}
 </div>
 
-[Link](src/test.md)
+[Link](test.md)
