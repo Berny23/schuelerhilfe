@@ -11,7 +11,7 @@ Beispielgraph:
 
 
 <script type="text/javascript">
-var board = JXG.JSXGraph.initBoard('jxgbox', {boundingbox: [-6, 6, 6, -3], fixed: true, axis:true, grid:false, showCopyright:false, showNavigation:false});
+var board = JXG.JSXGraph.initBoard('jxgbox', {boundingbox: [-6, 6, 6, -3], keepAspectRatio: true, zoom: {enabled: false}, pan: {enabled: false}, axis: true, grid: false, showCopyright: false, showNavigation: false});
 board.create('functiongraph', function(x) {
     return Math.pow((x + 1), 2) - 1;
 });
