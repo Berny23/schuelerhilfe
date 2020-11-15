@@ -1,19 +1,8 @@
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<link rel="stylesheet" type="text/css" href="https://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
 <script type="text/javascript" src="https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore.js"></script>
-<style>
-blockquote {
-    background: #f5f5f5;
-    color: #656565;
-    border-left: 8px #aaa solid;
-    border-radius: 4px;
-    padding: 10px 20px;
-    margin: 30px 20px;
-    font-size: 1.03em;
-}
-</style>
-
+<link rel="stylesheet" type="text/css" href="https://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+<link rel="stylesheet" type="text/css" href="../../main.css" /><!-- ← relative path to custom css -->
 
 # Tangente
 

@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="main.css" /><!-- ← relative path to custom css -->
+
 # Übersicht
 
 ## Mathematik
