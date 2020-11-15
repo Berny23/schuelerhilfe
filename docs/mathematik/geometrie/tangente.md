@@ -3,8 +3,14 @@
 <link rel="stylesheet" type="text/css" href="https://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
 <script type="text/javascript" src="https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore.js"></script>
 <style>
-body {
-    background-color: white;
+blockquotes {
+    background: #f5f5f5;
+    color: #656565;
+    border-left: 8px #aaa solid;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 30px 20px;
+    font-size: 1.03em;
 }
 </style>
 
