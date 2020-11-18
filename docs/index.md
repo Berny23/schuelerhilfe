@@ -24,8 +24,18 @@
         * [Gemeinsame Punkte]()
     
 * ### Geometrie
-    * #### [Koordinatensysteme]()
-    * #### [Tangente](mathematik/geometrie/tangente.md)
+    * #### Planimetrie (Ebene)
+        * ##### Grundformen
+            * [Gerade Linien]()
+        * ##### Grundbegriffe
+            * [Tangente](mathematik/geometrie/tangente.md)
+        * ##### Trigonometrie
+            * [Trigonometrische Gleichung](mathematik/geometrie/trigonometrie/trigonometrische-gleichung.md)
+            * [Trigonometrische Funktion]()
+    * #### Stereometrie (Raum)
+    * #### Analytische Geometrie
+    * #### Sonstiges
+        * [Koordinatensysteme]()
 * ### Analysis
 * ### Stochastik
 
@@ -34,3 +44,4 @@
 ## Chemie
 
 https://de.wikipedia.org/wiki/Portal:Mathematik/Liste_der_Themen_im_Mathematikunterricht
+https://de.wikibooks.org/wiki/Mathematik:_Schulmathematik

@@ -10,11 +10,10 @@
 Eine Tangente ist eine **Gerade**, die einen Funktionsgraphen **an einem Punkt berührt**.
 
 ## Formeln
-
-> Allgemeine Tangentengleichung:
+> **Allgemeine Tangentengleichung**
 > <div class="math">$$t(x)=f'(a)\cdot(x-a)+f(a)$$</div>
 
-> Allgemeine Geradengleichung:
+> **Allgemeine Geradengleichung**
 > <div class="math">$$y=mx+t$$</div>
 
 ## Graph
