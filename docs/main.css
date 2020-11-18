@@ -9,7 +9,15 @@ blockquote {
 }
 
 .page-header {
-	padding: 2rem !important;
+	padding: 1rem !important;
+}
+
+.project-name {
+    font-size: 2.7rem !important;
+}
+
+.main-content {
+    padding-top: 0rem !important;
 }
 
 .main-content :first-child {

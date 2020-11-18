@@ -2,7 +2,7 @@
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script type="text/javascript" src="https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore.js"></script>
 <link rel="stylesheet" type="text/css" href="https://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
-<link rel="stylesheet" type="text/css" href="../../main.css" /><!-- ← relative path to custom css -->
+<link rel="stylesheet" type="text/css" href="../../../main.css" /><!-- ← relative path to custom css -->
 
 # Trigonometrische Gleichung
 
